@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ad-erueka" />
         <module name="youzan-ad-common" />
         <module name="youzan-ad-erueka" />
         <module name="youzan-ad-gateway" />
@@ -14,7 +15,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ad-erueka" target="1.8" />
       <module name="ad-eureka" target="1.8" />
       <module name="youzan-ad-eureka" target="1.8" />
     </bytecodeTargetLevel>
